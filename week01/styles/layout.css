@@ -1,0 +1,35 @@
+/* Grid on body */
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Section styling */
+header, main, footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+}
+
+main {
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+/* Flex on nav */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
