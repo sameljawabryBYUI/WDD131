@@ -25,23 +25,30 @@
   <main>
     <h1>Samar Mohammed</h1>
 
-  <section class="card">
-    <h2>About Me</h2>
-    <img src="images/me.jpg" alt="Photo of Samar Mohammed">
-    <p>Hello! I’m Samar Mohammed, a student of WDD 131. I love learning web development and coding in general. I also love traveling thanks to my husband's awesome job, and when i am free i love to spend time with my family and my husband's family.</p>
-  </section>
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/me.jpg" alt="Photo of Samar Mohammed">
+      <p>Hello! I’m Samar Mohammed, a student of WDD 131. I love learning web development and coding in general. I also love traveling thanks to my husband's awesome job, and when I am free I love to spend time with my family and my husband's family.</p>
+    </section>
 
-  <section class="card">
-    <h2>Favorite Scripture</h2>
-    <img src="images/scripture.jpg" alt="Open scriptures">
-    <p>One of my favorite scriptures is from Genesis 2. It reminds me of the beauty of creation and the purpose we all have. You can <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng" target="_blank">read it here</a>.</p>
-  </section>
-</main>
-
+    <section class="card">
+      <h2>Favorite Scripture</h2>
+      <img src="images/scripture.jpg" alt="Open scriptures">
+      <p>One of my favorite scriptures is from Genesis 2. It reminds me of the beauty of creation and the purpose we all have. You can <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng" target="_blank">read it here</a>.</p>
+    </section>
   </main>
 
   <footer>
     <p>&copy; <span id="currentyear"></span> Samar Mohammed | Kenya</p>
+    <p id="lastModified"></p>
   </footer>
+
+  <script>
+    // Set current year
+    document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+    // Set last modified date
+    document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+  </script>
 </body>
 </html>
