@@ -70,6 +70,46 @@ main {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
+/* Web Dev Resources Section */
+.resources {
+  background-color: var(--white);
+  padding: 2rem;
+  border: 2px solid var(--dark-purple);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resources h2 {
+  text-align: center;
+  font-size: 1.75rem;
+  color: var(--dark-purple);
+  margin-bottom: 1.5rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.resource-grid a {
+  display: block;
+  background-color: var(--warm-orange);
+  color: var(--white);
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resource-grid a:hover {
+  background-color: var(--dark-red);
+  transform: scale(1.05);
+}
+
 
 footer {
   background-color: var(--dark-purple);
@@ -78,3 +118,4 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
