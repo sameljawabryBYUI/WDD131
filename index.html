@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="WDD 131 – Dynamic Web Fundamentals homepage created by Samar Mohammed. Includes personal information and course assignments.">
   <meta name="author" content="Samar Mohammed">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="styles/base.css">
+  <script src="scripts/getdates.js" defer></script>
+<link rel="icon" href="data:,">
+
   <title>WDD 131 – Dynamic Web Fundamentals – Samar Mohammed</title>
 </head>
 <body>
@@ -40,16 +48,11 @@
   </main>
 
   <footer>
-    <p>&copy; <span id="currentyear"></span> Samar Mohammed | Kenya</p>
-    <p id="lastModified"></p>
-  </footer>
+  <p>&copy; <span id="currentyear"></span> Samar Mohammed | Kenya</p>
+  <p id="lastModified"></p>
+</footer>
 
-  <script>
-    // Set current year
-    document.getElementById("currentyear").textContent = new Date().getFullYear();
 
-    // Set last modified date
-    document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
-  </script>
+  
 </body>
 </html>
