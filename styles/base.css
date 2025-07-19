@@ -1,5 +1,5 @@
 :root {
-  --dark-purple: #5f0f40;
+  --dark-purple: #6f1f50; /* Lighter for better contrast */
   --dark-red: #9a031e;
   --warm-orange: #fb8b24;
   --burnt-orange: #e36414;
@@ -7,6 +7,16 @@
   --white: #fff;
   --light-gray: #f9f9f9;
   --font-main: 'Raleway', sans-serif;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap;
 }
 
 body {
